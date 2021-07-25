@@ -16,5 +16,12 @@ class Solution:
                 else:
                     num=num+dict[s[i]]
             else:
-                num=num+dict[s[i]]
+                num=num+dict[s[i]] 
         return num
+
+#to check just unqoute below"
+"""
+s="MCMXCIV"
+obj=Solution
+print(obj().romanToInt(s))
+"""
